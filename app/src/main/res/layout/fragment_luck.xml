@@ -59,8 +59,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHeight_percent="0.6"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:background="@color/red" />
+            app:layout_constraintTop_toTopOf="parent"/>
 
         <TextView
             android:id="@+id/tvLucky"
@@ -79,7 +78,7 @@
             android:id="@+id/tvShare"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            tools:text="@string/share"
+            android:text="@string/share"
             android:gravity="center"
             style="@style/Body"
             android:layout_marginBottom="16dp"
